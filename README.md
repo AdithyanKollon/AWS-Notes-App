@@ -98,24 +98,6 @@ The **AWS Notes App** is a modern, serverless web application designed to demons
 | `POST` | `/notes` | Create a new note | `{ "title": "string", "note": "string" }` |
 | `DELETE` | `/notes/{id}` | Delete a specific note | N/A |
 
-### Example API Requests
-
-**Fetch All Notes:**
-```bash
-curl -X GET https://your-api-gateway-url/notes
-```
-
-**Create a Note:**
-```bash
-curl -X POST https://your-api-gateway-url/notes \
-  -H "Content-Type: application/json" \
-  -d '{"title":"My Note","note":"This is my first note"}'
-```
-
-**Delete a Note:**
-```bash
-curl -X DELETE https://your-api-gateway-url/notes/12345-abcde-67890
-```
 
 ---
 
